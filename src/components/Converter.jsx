@@ -25,7 +25,7 @@ const Converter = () => {
             <div className="signup-form">
                 <form action="" method="">
                     <h2>Konverter</h2>
-                    <hr />
+
                     <div className="form-group">
                         <div className="input-group">
                             <span className="input-group-addon"><i className="fa fa-user"></i></span>

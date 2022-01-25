@@ -1,5 +1,6 @@
 import React from 'react';
 import Converter from './Converter';
+import Quiz from './Quiz';
 
 const Main = () => {
     return (
@@ -19,7 +20,7 @@ const Main = () => {
                     <div className="row content">
                         <div class="col-md-5">
                             <lottie-player class="img-fluid" src="https://assets3.lottiefiles.com/packages/lf20_buzt1erl.json"
-              mode="bounce" background="#FFFFFF" speed="2" style={{ width: '400px', height: '400px' }} hover loop>
+                                mode="bounce" background="#FFFFFF" speed="2" style={{ width: '400px', height: '400px' }} hover loop>
                             </lottie-player>
                         </div>
                         <div className="col-md-7 pt-4">
@@ -113,7 +114,7 @@ const Main = () => {
 
             <br />
             {/* <span id="QuizSection">Quiz</span>  */}
-
+            <Quiz />
 
         </main>
     );
